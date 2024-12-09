@@ -1,38 +1,83 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+}
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #28a745;
-    color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  height: 75px;
 }
 
 .header .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .header nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header nav ul li {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 .header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
+.header nav ul li a:hover {
+  color: darkgray;
+}
+
+/* start home page */
+
+.homeHero {
+  background-image: url("Asset/grocery-webbanner.webp");
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100% 110%;
+}
+
+.homeHeroContent h1 {
+  font-size: 3em;
+  padding: 250px 0 0 50px;
+}
+/*  home */
+.homeHeroContent p {
+  padding-left: 100px;
+}
+
+.homeFoodType {
+  margin-top: 20px;
+  display: flex;
+  width: 99%;
+}
+
+.homeFoodImg {
+  width: 20%;
+}
+.homeFoodImg img {
+  width: 100%;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+/* home page end */
+=======
 
 .header nav ul li a:hover {
     color: darkgray;
@@ -115,3 +160,4 @@ footer .social-links a {
 footer .social-links a:hover {
     color: darkgray;
 }
+main
